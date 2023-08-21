@@ -1,4 +1,4 @@
 function solution(arr)
 {
-    return arr.filter((val, idx) => val !== arr[idx + 1]);
+    return arr.filter((value, index) => value != arr[index+1]);
 }
